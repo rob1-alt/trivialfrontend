@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from "react"
 import Cycling from './Cycling'
+import Link from 'next/link'
+
 
 
 function Navigation(){
@@ -18,9 +20,9 @@ function Navigation(){
             <div className="navbarLogo">Logo</div>
         <ul className="navbarLinks">
             <li className="navbarItem">
-                <a  href="/" className="navbarLink">
+                <Link href="/">
                     Accueil
-                </a>
+                </Link>
             </li>
             <li className="navbarItem">
                 <a to="/" className="navbarLink">
