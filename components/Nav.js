@@ -19,8 +19,8 @@ function Navigation(){
         <nav className={`navbar ${showLinks? "showNav" : "hideNav"} `}>
             <div className="navbarLogo">Logo</div>
         <ul className="navbarLinks">
-            <li className="navbarItem" className="navbarLink">
-                <a href="/">
+            <li className="navbarItem" >
+                <a href="/" className="navbarLink">
                     Accueil
                 </a>
             </li>
