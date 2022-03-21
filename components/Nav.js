@@ -2,6 +2,8 @@ import React from 'react'
 import { useState } from "react"
 // import Cycling from '../pages/cycling'
 import Link from 'next/link'
+import test from '../img/logo.png'
+import wave from '../img/Vector8.png'
 
 
 
@@ -17,7 +19,9 @@ function Navigation(){
 
     return(
         <nav className={`navbar ${showLinks? "showNav" : "hideNav"} `}>
-            <div className="navbarLogo">Logo</div>
+            <div className="navbarLogo">
+                <img src={wave} alt="Logo" />
+            </div>
         <ul className="navbarLinks">
             <li className="navbarItem" >
                 <a href="/" className="navbarLink">
