@@ -1,0 +1,115 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    min-height: 75px;
+    background-color: black;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navbarLinks {
+    display: flex;
+
+}
+
+.navbarLink {
+    padding: 0 0.3rem;
+    color : inherit;
+}
+
+.navbarBurger{
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    color: inherit;
+   
+}
+
+@media screen and (max-width:767px){
+    .navbarLinks{
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        align-items: center;
+        right: -100vw;
+        width: 0;
+        bottom: 0;
+        height: 100vh;
+        padding :2rem;
+        background-color: black;
+        visibility: hidden;
+        transition: all .8s ease-out;
+    }
+
+    .showNav .navbarLinks{
+        right: 0; 
+        width: 100vw;
+        visibility: visible;
+    }
+
+    .navbarLink{
+        display: block;
+        padding: 1.5rem;
+        font-size: 5vw;
+    }
+
+    .navbarBurger{
+        display: block;
+        position: fixed;
+        top : 1rem; 
+        right: 1rem;
+    }
+
+    .navbarBurger:hover{
+        cursor: pointer;
+    }
+
+    .burgerBar,
+    .burgerBar::before,
+    .burgerBar::after {
+        display: block;
+        width: 40px;
+        height: 3px;
+        position: relative;
+        border-radius: 3px;
+        background: white;
+        transition: all .5s ease-in-out;
+    }
+
+    .burgerBar::before,
+    .burgerBar::after{
+        content: "";
+        position: absolute;
+        left: 0;
+    }
+
+    .burgerBar::before{
+        transform: translateY(-12px);
+    }
+
+    .burgerBar::after{
+        transform: translateY(12px);
+    }
+
+    .showNav .burgerBar::before {
+        transform: rotate(45deg);
+    }
+
+    .showNav .burgerBar::after {
+        transform: rotate(-45deg);
+    }
+
+    .showNav .burgerBar{
+        background: transparent;
+        width: 0;
+    }
+
+    
+}
+
