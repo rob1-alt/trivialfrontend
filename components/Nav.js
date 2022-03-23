@@ -2,8 +2,6 @@ import React from 'react'
 import { useState } from "react"
 // import Cycling from '../pages/cycling'
 import Link from 'next/link'
-import test from '../img/logo.png'
-import wave from '../img/Vector8.png'
 
 
 
@@ -20,7 +18,9 @@ function Navigation(){
     return(
         <nav className={`navbar ${showLinks? "showNav" : "hideNav"} `}>
             <div className="navbarLogo">
-                <img src={wave} alt="Logo" />
+        
+                <img src="/img/t.svg"/>
+            
             </div>
         <ul className="navbarLinks">
             <li className="navbarItem" >
@@ -50,10 +50,21 @@ function Navigation(){
         <button className="navbarBurger" onClick={handleShowLinks}>
             <span className="burgerBar"></span>
         </button>
+    
+        
         </nav>
         
+        
     )
+
+    
 }
 
 
+
+
 export default Navigation
+
+
+
+

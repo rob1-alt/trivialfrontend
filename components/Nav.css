@@ -11,8 +11,15 @@
     left: 0;
     width: 100%;
     min-height: 75px;
-    background-color: black;
+    background-color: #428A49;
     color: #FFF;
+    z-index: 1;
+}
+
+
+
+img{
+    width: 7%;
 }
 
 .navbarLinks {
@@ -45,7 +52,7 @@
         bottom: 0;
         height: 100vh;
         padding :2rem;
-        background-color: black;
+        background-color: #428A49;
         visibility: hidden;
         transition: all .8s ease-out;
     }
@@ -115,4 +122,5 @@
 
     
 }
+
 
