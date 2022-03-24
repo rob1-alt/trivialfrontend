@@ -11,12 +11,14 @@
     left: 0;
     width: 100%;
     min-height: 75px;
-    background-color: #428A49;
+    background-color: transparent;
     color: #FFF;
     z-index: 1;
 }
 
-
+.navbarLink:hover{
+    color: #1f5c25;
+}
 
 img{
     width: 7%;

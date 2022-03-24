@@ -4,10 +4,10 @@ import { Row, Col } from 'antd';
 
 function Footer(){
     return(
-        <div class="footerDark">
+        <div className="footerDark">
         <footer>
-            <div class="containerFooter">
-                <div class="text">
+            <div className="containerFooter">
+                <div className="text">
                 <Row>
                     <Col span={6} className="titleFooter">A Propos</Col>
                     <Col span={6} className="titleFooter">Pages</Col>
@@ -44,7 +44,7 @@ function Footer(){
 
                     <Col span={12}>
 
-                     <p class="copyright">Trivial © 2022</p>
+                     <p className="copyright">Trivial © 2022</p>
 
                     </Col>
                 </Row>
