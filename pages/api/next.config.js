@@ -1,2 +1,1 @@
-const withImages = require('next-images')
-module.exports = withImages()
+import Image from 'next/image'

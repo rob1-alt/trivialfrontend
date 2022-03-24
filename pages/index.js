@@ -14,7 +14,7 @@ function Landing(){
               <div className="trivialInfo">
               <Row gutter={[32, 8]}>
                 <Col className="whatisTrivial" span={12}> 
-                    <span className='recyclageTitle1'>Trivial c'est quoi ?</span>
+                    <span className='recyclageTitle1'>Trivial cest quoi ?</span>
                     <p className='info4'>On trie pour vous ! Trivial, c’est l’application qui vous aide à mieux recycler grâce à des conseils sur les produits que vous consommez.</p>
                 </Col>
                 <Col span={12}><img src="img/recyclage1.svg"></img></Col>
