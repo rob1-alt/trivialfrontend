@@ -20,7 +20,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 21vh;
-    background-position: 112% -600%;
+    background-position: 112% -20%;
+    padding-top: 8%;
 }
 
 .raviolis {
@@ -28,6 +29,7 @@
     font-family: 'Lemon', cursive;
     font-size: 5vw;
     padding-left: 8%;
+    padding-top: 8%;
 }
 
 .s2_product_labels {
@@ -186,7 +188,7 @@ td {
     transition-duration: 0.3s;
 }
 
-button:hover {
+.learn_more:hover {
     width: 40%;
     height: 12%;
     background-color: #ffffff;

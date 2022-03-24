@@ -60,7 +60,7 @@ function Produit(){
                         </tr>
                     </tbody>
                 </table>
-                <button onclick="" className='learn_more'>En savoir plus</button>
+                <button onclick="/cycling.js" className='learn_more'>En savoir plus</button>
             </div>
             <div className='spacing'></div>
         </div>

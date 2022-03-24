@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Lemon&display=swap%27);
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap');
 
 .containerindex, .containersource{
     background-image: url(../public/img/bg-hd.svg);
@@ -11,12 +11,13 @@
     padding-bottom: 5px;
 }
 
-h5{
+.containersource h5{
     padding: 0;
     margin: 0;
     align-items: center;
     justify-content: center;
     padding-left: 25%;
+    color: white;
 }
 
 .infoChiffre{
@@ -84,13 +85,17 @@ p {
     padding-right: 10%;
     font-size: 12.5px;
     line-height:2.3ch;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 4.3vw;
 }
-h2, h5, .containersource{
-    color: white;
-}
-h2{
+
+
+.containersource h2{
     padding-left: 28px;
     margin: center;
+    color: white;
 }
 
 .historique{
@@ -110,5 +115,8 @@ display: flex;
 margin-top:30%;
     }
 .containersource h3{
-    font-family: 'lemon', cursive;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: bold;
+    font-size: 4.3vw;
 }

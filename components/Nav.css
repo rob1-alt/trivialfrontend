@@ -11,7 +11,7 @@
     left: 0;
     width: 100%;
     min-height: 75px;
-    background-color: #428A49;
+    /*background-color: #428A49;*/
     color: #FFF;
     z-index: 1;
 }
@@ -53,6 +53,7 @@ ul .navbarLinks{
         width: 0;
         bottom: 0;
         height: 100vh;
+        line-height: 5;
         padding :2rem;
         background-color: #428A49;
         visibility: hidden;
