@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import '../components/Nav.css'
 import '../components/produit.css'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import '../components/Footer.css'
 import '../components/Landinpage.css'
 import '../components/cycling.css'
