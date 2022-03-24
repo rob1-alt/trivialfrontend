@@ -1,6 +1,7 @@
 import React from 'react'
 import Search from "../components/SearchBar";
 import Cart from "../components/Cart";
+import Image from 'next/image'
 
 function App(){
     return(
