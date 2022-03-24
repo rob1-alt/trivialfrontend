@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2.5fr 1.5fr 1.5fr 2.5fr;
+    grid-template-areas: 
+        "photo photo photo photo"
+        "labels labels labels labels"
+        "info info info info"
+        "recycling recycling recycling recycling";
+    gap: 1rem;
+}
+
+.s1_product_photo {
+    /*background: #6fffd2;*/
+    grid-area: photo;
+    background-image: url(../public/img/bg_wave.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 21vh;
+    background-position: 112% -600%;
+}
+
+.raviolis {
+    color : #7AA37E;
+    font-family: 'Lemon', cursive;
+    font-size: 5vw;
+    padding-left: 8%;
+}
+
+.s2_product_labels {
+    /*background: #64ffda;*/
+    grid-area: labels;
+    width: 85%;
+    height: 12vh;
+    border-radius: 15px;
+    border: solid #DBF8DE 2px;
+    margin: 0 auto; 
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+ul {
+    padding-right: 8%;
+}
+
+.product_labels {
+    display: flex;
+    justify-content: space-between;
+    color: #7AA37E;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+.product_data {
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+    font-weight: 400;
+    line-height: 2px;
+}
+
+li {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.3vw;
+}
+
+.s3_product_info {
+    /*background: #73ffba;*/
+    grid-area: info;
+    margin-bottom: -10%;
+}
+
+.impact_foret {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 8%;
+}
+
+.eco_score {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2%;
+}
+
+.Rana {
+    width: 80%;
+    margin-left: 8%;
+}
+
+.leaf {
+    width: 8%;
+    height: 8%;
+}
+
+.ecoscore {
+    width: 24%;
+    height: 24%;
+}
+
+.info_text_eco {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 4.3vw;
+}
+
+.info_text_foret {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    padding-left: 10%;
+    font-size: 4.3vw;
+}
+
+.s4_product_recycling {
+    /*background: #1de9b6;*/
+    grid-area: recycling;
+    text-align: center;
+}
+
+.howto {
+    color : #7AA37E;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.4vw;
+    font-weight: bold;
+    padding-right: 15%;
+    margin-bottom: 6%;
+}
+
+table {
+    border: solid #DBF8DE 2px;
+    border-radius: 15px;
+    width: 90vw;
+    height: 24vh;
+    border-spacing: 40px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.yellow_bin {
+    width: 24vw;
+    padding-right: 10px;
+    padding-top: 2%;
+}
+
+.green_bin {
+    width: 20vw;
+}
+
+th {
+    color: #6B6C6B;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.4vw;
+    font-weight: 500;
+    padding-top: 4%;
+    padding-left: 6%;
+}
+
+tr {
+    text-align: left;
+}
+
+td {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.2vw;
+    font-weight: 400;
+    padding-left: 6%;
+}
+
+.learn_more {
+    width: 40%;
+    height: 12%;
+    background-color: #7AA37E;
+    border: solid 2px #ffffff;
+    border-radius: 50px;
+    margin-top: 8%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3.2vw;
+    color: #FFFFFF;
+    padding: 1.2% 6%;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    width: 40%;
+    height: 12%;
+    background-color: #ffffff;
+    border: solid 2px #7AA37E;
+    border-radius: 50px;
+    margin-top: 8%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #7AA37E;
+    padding: 1.2% 6%;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        display: grid;
+        width: 1500px;
+        height: 100vh;
+        grid-template-columns: 0.5fr 0.5fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        grid-template-areas: 
+            "photo labels"
+            "photo info"
+            "recycling recycling"
+            "recycling recycling";
+        gap: 1 rem;
+    }
+
+    .s1_product_photo {
+        background: #6fffd2;
+        grid-area: photo;
+    }
+    
+    .raviolis {
+        color : #7AA37E;
+        font-family: 'Lemon', cursive;
+        font-size: 30px;
+        padding-left: 8%;
+        padding-top: 4%;
+    }
+    
+    .s2_product_labels {
+        background: #64ffda;
+        grid-area: labels;
+        position: relative;
+        width: 80%;
+        height: 12vh;
+        border-radius: 15px;
+        border: solid #DBF8DE 2px;
+        text-align: center;
+        margin-bottom: 6%;
+    }
+    
+    ul {
+        padding-right: 8%;
+    }
+    
+    .product_labels {
+        display: flex;
+        justify-content: space-between;
+        color: #7AA37E;
+        font-weight: bold;
+        margin-top: 24px;
+    }
+    
+    .product_data {
+        display: flex;
+        justify-content: space-between;
+        color: #000000;
+        font-weight: 400;
+        line-height: 2px;
+    }
+    
+    li {
+        list-style: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2vw;
+    }
+    
+    .s3_product_info {
+        background: #73ffba;
+        grid-area: info;
+        margin-bottom: -10%;
+    }
+    
+    .impact_foret {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 8%;
+    }
+    
+    .eco_score {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 2%;
+    }
+    
+    .Rana {
+        width: 50%;
+        margin-left: 8%;
+    }
+    
+    .leaf {
+        width: 8%;
+        height: 8%;
+    }
+    
+    .ecoscore {
+        width: 12%;
+        height: 12%;
+    }
+    
+    .info_text_eco {
+        font-family: 'Poppins', sans-serif;
+        color: #000000;
+        font-weight: 400;
+        font-size: 1.2vw;
+    }
+    
+    .info_text_foret {
+        font-family: 'Poppins', sans-serif;
+        color: #000000;
+        font-weight: 400;
+        font-size: 1.2vw;
+    }
+    
+    .s4_product_recycling {
+        background: #1de9b6;
+        grid-area: recycling;
+    }
+    
+    .howto {
+        color : #7AA37E;
+        font-family: 'Poppins', sans-serif;
+        font-size: 42px;
+        font-weight: bold;
+        padding-right: 15%;
+        margin-top: 12%;
+    }
+    
+    table {
+        border: solid #DBF8DE 6px;
+        border-radius: 15px;
+        width: 20vw;
+        height: 24vh;
+        border-spacing: 40px;
+        text-align: left;
+        margin-left: 5%;
+    }
+    
+    .yellow_bin {
+        width: 8vw;
+        padding-right: 10px;
+        padding-top: 2%;
+    }
+    
+    .green_bin {
+        width: 6vw;
+    }
+    
+    th {
+        color: #6B6C6B;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5vw;
+        font-weight: 500;
+        padding-top: 4%;
+        padding-left: 6%;
+    }
+    
+    tr {
+        text-align: left;
+    }
+    
+    td {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2vw;
+        font-weight: 400;
+        padding-left: 6%;
+    }
+    
+    .learn_more {
+        width: 18%;
+        height: 12%;
+        background-color: #7AA37E;
+        border: 0;
+        border-radius: 50px;
+        margin-top: 8%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 0.6vw;
+        color: #FFFFFF;
+    }
+}
