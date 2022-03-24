@@ -5,7 +5,7 @@ function Produit(){
     return(
         <div className='container'>
             <div className='s1_product_photo'>
-                <h2 className='raviolis'>Raviolis Rana Boeuf <br></br> et petits légumes</h2>
+                <h3 className='raviolis'>Raviolis Rana Boeuf <br></br> et petits légumes</h3>
                 <img className='Rana' src="/img/Rana.png"/>
             </div>
             <div className='s2_product_labels'>
@@ -60,7 +60,9 @@ function Produit(){
                         </tr>
                     </tbody>
                 </table>
-                <button className='learn_more'>En savoir plus</button>
+                <a href ="/cycling">
+                    <button className='learn_more'>En savoir plus</button>
+                </a>
             </div>
             <div className='spacing'></div>
         </div>

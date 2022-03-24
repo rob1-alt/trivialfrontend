@@ -1,121 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+.rankingPage {
+    font-family: poppins;
+}
 
-.containerindex, .containersource{
-    background-image: url(../public/img/bg-hd.svg);
+
+/* Title */ 
+
+.titleLanding {
+    color : white;
+    font-family: Lemon;
+    font-size: 5.5vw;
+    background-image: url(../public/img/backgroundLanding.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 25% 0% 45% 7%;
 }
 
-.containersource{
-    padding-top: 30px;
-    padding-bottom: 5px;
+.recyclageTitle1{
+    font-size: 4vw;
+    color: #7aa37E;
+    font-family: 'Lemon';
 }
 
-.containersource h5{
-    padding: 0;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-    padding-left: 25%;
-    color: white;
+.recyclageTitle2{
+    font-size: 4vw;
+    font-family: 'Lemon';
+    color: #7aa37E;
+
 }
 
-.infoChiffre{
-    text-align: center;
+.recyclageTitle7{
+    font-size: 4vw;
+    font-family: 'Lemon';
+    color: #7aa37E;
+
 }
 
-.heart{
-    height: 100%;
-    width: 100%;
-    padding-top: 20px;
-    padding-right: 20px;
-    display: flex;
+.info4 {
+    font-size: 2vw;
 }
 
-.containerindex h1{
-    font-family: 'lemon', cursive;
-    color: white;
-    margin:0;
-    padding:10px;
-    font-size:8vw;
-    line-height: 50px;
+.info5 {
+    font-size: 2vw;
 }
 
-#searchbar{
-    border-radius: 10%;
-    border: 1px black;
-    padding: 5px;
-    margin-left: 40px;
-    margin-bottom: 20px;
-}
-
-.containerindex p{
-    font-family: poppins;
-    color: white;
-}
-body{
-    margin:0;
-    padding: 0;
-    justify-content: center;
-    align-items: 100vw;
-}
-
-
-.number{
-    font-family: 'lemon', cursive;
-    color: white;
-}
-
-.indexinfo h3{
-    color: #7aa37e;
-    font-family: 'lemon', cursive;
-    padding-top: 20px;
-}
-.textTest{
-    color: #7aa37e;
-    padding-left:35px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    font-size: 12px;
-    font-family: 'lemon', cursive;
-}
-
-.containersource p {
-    padding-right: 10%;
-    font-size: 12.5px;
-    line-height:2.3ch;
-    font-family: 'Poppins', sans-serif;
-    color: #000000;
-    font-weight: 400;
-    font-size: 4.3vw;
-}
-
-
-.containersource h2{
-    padding-left: 28px;
-    margin: center;
-    color: white;
-}
-
-.historique{
-width:120%;
-margin-top:20%;
-}
-
-.rubbish{
-    margin-top:20%;
-    width:100%;
-    }
-
-    
-.time{
-    width: 120%;
-display: flex;
-margin-top:30%;
-    }
-.containersource h3{
-    font-family: 'Poppins', sans-serif;
-    color: #000000;
-    font-weight: bold;
-    font-size: 4.3vw;
+.info6 {
+    font-size: 2vw;
 }
