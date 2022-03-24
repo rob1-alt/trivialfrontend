@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Poppins:wght@100;200;300&display=swap');
+
+
 .rankingPage {
     font-family: poppins;
 }
@@ -7,7 +10,7 @@
 
 .titleLanding {
     color : white;
-    font-family: Lemon;
+    font-family: 'Lemonada';
     font-size: 5.5vw;
     background-image: url(../public/img/backgroundLanding.svg);
     background-repeat: no-repeat;
@@ -18,19 +21,19 @@
 .recyclageTitle1{
     font-size: 4vw;
     color: #7aa37E;
-    font-family: 'Lemon';
+    font-family: 'Lemonada';
 }
 
 .recyclageTitle2{
     font-size: 4vw;
-    font-family: 'Lemon';
+    font-family: 'Lemonada';
     color: #7aa37E;
 
 }
 
 .recyclageTitle7{
     font-size: 4vw;
-    font-family: 'Lemon';
+    font-family: 'Lemonada';
     color: #7aa37E;
 
 }
