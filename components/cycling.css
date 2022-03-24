@@ -8,6 +8,8 @@
     padding-top: 20%;
     padding-left: 10%;
     padding-right: 10%;
+    
+
 }
 
 @media screen and (max-width:767px) {
@@ -40,8 +42,8 @@ padding-top: 20px;
 
 .infoTitle{
     color : #7AA37E;
-    font-family: 'Poppins',300,sans-serif;
-    font-size: 20px;
+    font-family: 'Lemon', cursive;
+    font-size: 4vw;
 }
 
 .Green{
@@ -53,6 +55,11 @@ color: green;
     font-size: 14px;
     line-height: 130%;
    
+}
+
+
+.infoP a {
+    color:#FFE600;
 }
 
 .background1{
@@ -73,8 +80,8 @@ color: green;
 
 .infoBac{
     color: #FFE600;
-    font-family: 'Poppins',300,sans-serif;
-    font-size: 18px;
+    font-family: 'Lemon', cursive;
+    font-size: 4vw;
 }
 
 .Yellow{
@@ -85,6 +92,13 @@ color: green;
 
 .background3{
     margin-top: 5vw;
+}
+
+.infoOrdure{
+    color : #7AA37E;
+    font-size: 4vw;
+    font-family: 'Lemon', cursive;
+
 }
 
 .info3{

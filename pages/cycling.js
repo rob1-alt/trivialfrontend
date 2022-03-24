@@ -31,7 +31,7 @@ function Cycling(){
                 </Col>
                   {/*  3   */}
                 <Col className="infoCycling3" span={12}> 
-                    <span className='info3'>Bac d’ordures ménagères</span>
+                    <span className='infoOrdure'>Bac d’ordures ménagères</span>
                     <p className='infoP'>Gris/Noir : la poubelle « classique ». Elle sert à collecter le reste des déchet. Donc les broccolis de mamie c’est dans celle là !</p>
                 </Col>
                 <Col span={12}><img className="background3" src="/img/background3.svg"></img> </Col> 

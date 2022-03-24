@@ -1,6 +1,7 @@
 import React from 'react'
 import 'antd/dist/antd.css';
 import { Row, Col } from 'antd';
+import Link from 'next/link'
 
 function Footer(){
     return(
@@ -21,18 +22,18 @@ function Footer(){
                         <li>Contact</li>
                     </Col>
                     <Col span={6}>
-                        <li><a href="/">Accueil</a></li>
-                        <li><a href="/ranking">Top 100</a></li>
-                        <li><a href="/cycling">Recycle moi</a></li>
+                        <li><Link href="/">Accueil</Link></li>
+                        <li><Link href="/ranking">Top 100</Link></li>
+                        <li><Link href="/cycling">Recycle moi</Link></li>
                     </Col>
                     <Col span={6}>
-                        <li><a href="https://yuka.io/">Yuka</a></li>
-                        <li><a href="https://www.ecologie.gouv.fr/">Ecologie Gouv</a></li>
+                        <li><Link href="https://yuka.io/">Yuka</Link></li>
+                        <li><Link href="https://www.ecologie.gouv.fr/">Ecologie Gouv</Link></li>
                     </Col>
                     <Col span={6}>
-                        <li><a href="/">Instagram</a></li>
-                        <li><a href="/">Facebook</a></li>
-                        <li><a href="/">Twitter</a></li>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
                     </Col>
                  </Row>
                         

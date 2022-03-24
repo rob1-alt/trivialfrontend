@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 // import 'antd/dist/antd.css';
 
 function Produit(){
@@ -60,9 +61,9 @@ function Produit(){
                         </tr>
                     </tbody>
                 </table>
-                <a href ="/cycling">
+                <Link href ="/cycling">
                     <button className='learn_more'>En savoir plus</button>
-                </a>
+                </Link>
             </div>
             <div className='spacing'></div>
         </div>
