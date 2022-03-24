@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 import '../components/Footer.css'
 import '../components/LandinPage.css'
 import '../components/cycling.css'
-
+import '../components/ranking.css'
 
 
 function MyApp({ Component, pageProps }) {
