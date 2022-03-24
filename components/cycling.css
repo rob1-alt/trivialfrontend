@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Poppins:wght@100;200;300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonadaadaada:wght@700&display=swap');
 
 .containerCycling{
     background-image: url(/img/backgroundHeader.svg);
@@ -20,7 +20,7 @@
 
 .cyclingHeader h1{
 color: white;
-font-family: 'Lemon', cursive;
+font-family: 'Lemonada';
 margin: 0;
 }
 
@@ -42,7 +42,7 @@ padding-top: 20px;
 
 .infoTitle{
     color : #7AA37E;
-    font-family: 'Lemon', cursive;
+    font-family: 'Lemonada';
     font-size: 4vw;
 }
 
@@ -80,7 +80,7 @@ color: green;
 
 .infoBac{
     color: #FFE600;
-    font-family: 'Lemon', cursive;
+    font-family: 'Lemonada';
     font-size: 4vw;
 }
 
@@ -97,7 +97,7 @@ color: green;
 .infoOrdure{
     color : #7AA37E;
     font-size: 4vw;
-    font-family: 'Lemon', cursive;
+    font-family: 'Lemonada';
 
 }
 
@@ -111,7 +111,6 @@ color: green;
 
 .calendrier{
     margin-top: 10%;
-   
     align-items: center;
     justify-content: center;
 }
