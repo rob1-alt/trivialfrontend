@@ -23,24 +23,24 @@ function Navigation(){
             
             </div>
         <ul className="navbarLinks">
-            <li className="navbarItem" >
+            <li className="navbarItem" onClick={handleShowLinks}>
                 <Link href="/" className="navbarLink">
                     Accueil
                 </Link>
             </li>
-            <li className="navbarItem">
+            <li className="navbarItem" onClick={handleShowLinks}>
                 <Link href="/produit" className="no-global-styles">
                     Produit
                 </Link>
             </li>
             
-            <li className="navbarItem">
+            <li className="navbarItem" onClick={handleShowLinks}>
                 <Link href="/ranking" className="navbarLink">
                     Top 100
                 </Link>
             </li>
-            <li className="navbarItem">
-                <Link href="/cycling" className="navbarLink">
+            <li className="navbarItem" onClick={handleShowLinks}>
+                <Link href="/cycling" className="navbarLink" >
                     Recycle 
                 </Link>
             </li>
