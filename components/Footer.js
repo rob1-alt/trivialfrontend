@@ -39,7 +39,7 @@ function Footer(){
                  </div>
                 <Row>
                     <Col span={12}>
-                        <img className="logoFooter" src="/img/t.svg"/>
+                        <img className="logoImg" src="/img/t.svg"/>
                     </Col>
 
                     <Col span={12}>

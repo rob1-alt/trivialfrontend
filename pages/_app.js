@@ -4,6 +4,9 @@ import '../components/produit.css'
 import Layout from '../components/layout'
 import '../components/Footer.css'
 import '../components/LandinPage.css'
+import '../components/cycling.css'
+
+
 
 function MyApp({ Component, pageProps }) {
   return   (

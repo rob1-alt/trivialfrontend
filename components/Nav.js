@@ -19,7 +19,7 @@ function Navigation(){
         <nav className={`navbar ${showLinks? "showNav" : "hideNav"} `}>
             <div className="navbarLogo">
         
-                <img src="/img/t.svg"/>
+                <img className="logoImg"src="/img/t.svg"/>
             
             </div>
         <ul className="navbarLinks">
