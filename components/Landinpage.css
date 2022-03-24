@@ -1,51 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Poppins:wght@100;200;300&display=swap');
-
-
 .rankingPage {
     font-family: poppins;
-}
-
-
-/* Title */ 
-
-.titleLanding {
+ }
+  
+  
+ /* Title */
+  
+ .titleLanding {
     color : white;
-    font-family: 'Lemonada';
+    font-family: Lemon;
     font-size: 5.5vw;
     background-image: url(../public/img/backgroundLanding.svg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 25% 0% 45% 7%;
-}
-
-.recyclageTitle1{
+ }
+  
+ .recyclageTitle1{
     font-size: 4vw;
     color: #7aa37E;
-    font-family: 'Lemonada';
-}
-
-.recyclageTitle2{
+    font-family: 'Lemon';
+ }
+  
+ .recyclageTitle2{
     font-size: 4vw;
-    font-family: 'Lemonada';
+    font-family: 'Lemon';
     color: #7aa37E;
-
-}
-
-.recyclageTitle7{
+  
+ }
+  
+ .recyclageTitle7{
     font-size: 4vw;
-    font-family: 'Lemonada';
+    font-family: 'Lemon';
     color: #7aa37E;
-
-}
-
-.info4 {
+  
+ }
+  
+ .Explication img {
+    width: 18vw;
+    text-align: center;
+    margin: auto;
+    display: flex;
+ }
+  
+ .info4 {
     font-size: 2vw;
-}
-
-.info5 {
+ }
+  
+ .info5 {
     font-size: 2vw;
-}
-
-.info6 {
+ }
+  
+ .info6 {
     font-size: 2vw;
-}
+ }
+  
+ .Explication{
+    margin: 0% 4% 0% 4%;
+ }
+  
+ /* BANDE */
+  
+ .titleBande{
+    color: #7aa37E;
+    font-family: 'poppins';
+    font-weight: 500;
+    margin: 5% 4% 0% 4%;
+    font-size: 3vw;
+ }
+  
+ .Bande{
+    width: 100%;
+    height: 10vw;
+    background-color: #7aa37E;
+ }
+  
+ /* HISTORIQUE */
+  
+ .titleHist H3{
+    color: #7aa37E;
+    font-family: 'Lemon';
+    margin: 3% 4% 2% 4%;
+    font-size: 5vw;
+ }
+  
+ .titleHist p{
+    font-family: 'poppins';
+    margin: 0% 4% 3% 4%;
+    font-size: 3vw;
+ }
+ 
