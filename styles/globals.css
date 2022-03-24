@@ -18,3 +18,12 @@ a {
 main{
   padding-top: 103px ;
 }
+
+
+:not(.no-global-styles) > a {
+  color: white;
+  
+  font-family: 'poppins' ;
+  text-decoration: none;
+  cursor: pointer;
+}

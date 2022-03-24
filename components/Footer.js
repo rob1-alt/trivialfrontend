@@ -16,9 +16,9 @@ function Footer(){
                  </Row>
                  <Row>
                     <Col span={6}>
-                        <li><a href="#">Cookies</a></li>
-                        <li><a href="#">Confidentialité</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li>Cookies</li>
+                        <li>Confidentialité</li>
+                        <li>Contact</li>
                     </Col>
                     <Col span={6}>
                         <li><a href="/">Accueil</a></li>

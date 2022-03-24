@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 function Navigation(){
 
-
+     
     const[showLinks, setShowLinks] = useState(false)
 
     const handleShowLinks = () => {
@@ -24,25 +24,25 @@ function Navigation(){
             </div>
         <ul className="navbarLinks">
             <li className="navbarItem" >
-                <a href="/" className="navbarLink">
+                <Link href="/" className="navbarLink">
                     Accueil
-                </a>
+                </Link>
             </li>
             <li className="navbarItem">
-                <a href="/produit" className="navbarLink">
+                <Link href="/produit" className="no-global-styles">
                     Produit
-                </a>
+                </Link>
             </li>
             
             <li className="navbarItem">
-                <a href="/ranking" className="navbarLink">
+                <Link href="/ranking" className="navbarLink">
                     Top 100
-                </a>
+                </Link>
             </li>
             <li className="navbarItem">
-                <a href="/cycling" className="navbarLink">
+                <Link href="/cycling" className="navbarLink">
                     Recycle 
-                </a>
+                </Link>
             </li>
         
             

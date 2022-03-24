@@ -11,14 +11,12 @@
     left: 0;
     width: 100%;
     min-height: 75px;
-    background-color: transparent;
+    background-color: #428A49;
     color: #FFF;
     z-index: 1;
 }
 
-.navbarLink:hover{
-    color: #1f5c25;
-}
+
 
 img{
     width: 7%;
@@ -27,12 +25,14 @@ img{
 .navbarLinks {
     display: flex;
     list-style: none;
-}
-
-.navbarLink {
     padding: 0 0.3rem;
     color : inherit;
 }
+
+ul .navbarLinks{
+    margin-bottom: 80px;
+}
+
 
 .navbarBurger{
     width: 40px;
