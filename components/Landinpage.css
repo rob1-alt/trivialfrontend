@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css2?family=Lemon&display=swap%27);
+
+.containerindex, .containersource{
+    background-image: url(../public/img/bg-hd.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containersource{
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+h5{
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25%;
+}
+
+.infoChiffre{
+    text-align: center;
+}
+
+.heart{
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 20px;
+    display: flex;
+}
+
+.containerindex h1{
+    font-family: 'lemon', cursive;
+    color: white;
+    margin:0;
+    padding:10px;
+    font-size:8vw;
+    line-height: 50px;
+}
+
+#searchbar{
+    border-radius: 10%;
+    border: 1px black;
+    padding: 5px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.containerindex p{
+    font-family: poppins;
+    color: white;
+}
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: 100vw;
+}
+
+
+.number{
+    font-family: 'lemon', cursive;
+    color: white;
+}
+
+.indexinfo h3{
+    color: #7aa37e;
+    font-family: 'lemon', cursive;
+    padding-top: 20px;
+}
+.textTest{
+    color: #7aa37e;
+    padding-left:35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    font-size: 12px;
+    font-family: 'lemon', cursive;
+}
+
+p {
+    padding-right: 10%;
+    font-size: 12.5px;
+    line-height:2.3ch;
+}
+h2, h5, .containersource{
+    color: white;
+}
+h2{
+    padding-left: 28px;
+    margin: center;
+}
+
+.historique{
+width:120%;
+margin-top:20%;
+}
+
+.rubbish{
+    margin-top:20%;
+    width:100%;
+    }
+
+    
+.time{
+    width: 120%;
+display: flex;
+margin-top:30%;
+    }
+.containersource h3{
+    font-family: 'lemon', cursive;
+}
