@@ -33,6 +33,7 @@ function Produit(){
             </div>
             <div className='s4_product_recycling'>
                 <h3 className='howto'>Comment recycler ce produit :</h3>
+                <div className='table_stroke'>
                 <table>
                     <thead>
                         <tr>
@@ -61,6 +62,8 @@ function Produit(){
                         </tr>
                     </tbody>
                 </table>
+                </div>
+                
                 <Link href ="/cycling">
                     <button className='learn_more'>En savoir plus</button>
                 </Link>

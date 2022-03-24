@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap');
 
 .container {
-    display: grid;
-    height: 100vh;
+    /*display: grid;*/
+    /*height: 100vh;*/
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2.5fr 1.5fr 1.5fr 2.5fr;
     grid-template-areas: 
@@ -134,13 +134,20 @@ li {
 }
 
 table {
-    border: solid #DBF8DE 2px;
-    border-radius: 15px;
+    /*border: solid #DBF8DE 2px;
+    border-radius: 15px;*/
     width: 90vw;
     height: 24vh;
     border-spacing: 40px;
     text-align: left;
-    margin-left: 5%;
+}
+
+.table_stroke {
+    margin: 0 auto;
+    width: 90vw;
+    height: 24vh;
+    border: solid #DBF8DE 2px;
+    border-radius: 15px;
 }
 
 .yellow_bin {
@@ -186,6 +193,7 @@ td {
     color: #FFFFFF;
     padding: 1.2% 6%;
     transition-duration: 0.3s;
+    margin-bottom: 10%;
 }
 
 .learn_more:hover {
@@ -199,6 +207,7 @@ td {
     font-weight: bold;
     color: #7AA37E;
     padding: 1.2% 6%;
+    cursor: pointer;
 }
 
 

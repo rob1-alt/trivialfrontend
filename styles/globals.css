@@ -25,7 +25,6 @@ a {
   
   font-family: 'poppins' ;
   text-decoration: none;
-  cursor: pointer;
 }
 
 :not(.no-global-styles) > h2 {
