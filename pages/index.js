@@ -1,6 +1,7 @@
     import React from 'react'
     import { Row, Col } from 'antd';
     import Link from 'next/link'
+    import Search from "../components/SearchBar";
 
     // import 'antd/dist/antd.css';
 
@@ -9,7 +10,9 @@
             <div className="landingPage">
                 <div className="titleLanding">
                     <h2><b>Bienvenue <br /> sur Trivial</b></h2>
+                    < Search/>
                 </div>
+
                 
                 <div className="trivialInfo">
                     <div className="Explication">
@@ -43,10 +46,21 @@
     
     
             <div className='titleBande'>
-                <p><b>Maintenant que tout est clair, on commence ?</b></p>
+                <p>Maintenant que tout est clair, on commence ?</p>
             </div>
             <div className='Bande'>
-    
+                <div className='number1'>
+                    <h5>773Kg</h5>
+                    <p>c’est ce que jette en moyenne 1 Français par an.</p>
+                </div>
+                <div className='number2'>
+                    <h5>61%</h5>
+                    <p>des francais trient mal leurs emballages. </p>
+                </div>
+                <div className='number3'>
+                    <h5>4,6%</h5>
+                    <p>de déchets produits en moins par habitant par an.</p>
+                </div>
             </div>
             <div className='titleHist'>
                 <h3><b>Vos produits scannés</b></h3>
@@ -55,34 +69,34 @@
     
                 <div className="bloc">
             <Card
-                    img="https://images.unsplash.com/photo-1592187270271-9a4b84faa228?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
-                    title="Ananas - 33cl"
-                    description="A/B"
+                    img="https://fr.openfoodfacts.org/images/products/20713713/front_fr.120.400.jpg"
+                    title="Chocolat Bio"
+                    description="D"
             />
             <Card
-                    img="https://images.unsplash.com/photo-1528825871115-3581a5387919?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1015&q=80"
-                    title="Banane - 2L"
-                    description="C/D"
+                    img="https://fr.openfoodfacts.org/images/products/324/093/154/5059/front_fr.126.400.jpg"
+                    title="Gnocchi"
+                    description="B"
             />
-            <Card s
-                    img="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1015&q=80"
-                    title="Fraise - 50cl"
-                    description="A/B"
-            />
-                        <Card
-                    img="https://images.unsplash.com/photo-1592187270271-9a4b84faa228?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
-                    title="Ananas - 33cl"
-                    description="A/B"
+            <Card 
+                    img="	https://fr.openfoodfacts.org/images/products/400/840/026/0921/front_fr.149.400.jpg"
+                    title="Kinder"
+                    description="{none}"
             />
             <Card
-                    img="https://images.unsplash.com/photo-1528825871115-3581a5387919?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1015&q=80"
-                    title="Banane - 2L"
-                    description="C/D"
+                    img="	https://fr.openfoodfacts.org/images/products/761/303/492/6814/front_fr.152.400.jpg"
+                    title="Knacki"
+                    description="E"
+            />
+            <Card
+                    img="	https://fr.openfoodfacts.org/images/products/541/118/811/6592/front_fr.228.400.jpg"
+                    title="Coco"
+                    description="B"
             />
             <Card s
-                    img="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1015&q=80"
-                    title="Fraise - 50cl"
-                    description="A/B"
+                    img="https://fr.openfoodfacts.org/images/products/316/893/000/3632/front_fr.112.400.jpg"
+                    title="Quakers"
+                    description="C"
             />
         </div>
     
