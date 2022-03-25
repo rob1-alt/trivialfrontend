@@ -23,6 +23,12 @@
     padding-top: 8%;
 }
 
+.productApi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .raviolis {
     color : #7AA37E;
     font-family: 'Lemonada', cursive;
@@ -88,8 +94,8 @@ li {
 }
 
 .Rana {
-    width: 80%;
-    margin-left: 8%;
+    margin: 30px;
+    width: 40%;
 }
 
 .leaf {
