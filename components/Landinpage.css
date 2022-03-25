@@ -7,7 +7,7 @@
   
  .titleLanding {
     color : white;
-    font-family: Lemon;
+    font-family: 'Lemonada';
     font-size: 5.5vw;
     background-image: url(../public/img/backgroundLanding.svg);
     background-repeat: no-repeat;
@@ -18,19 +18,19 @@
  .recyclageTitle1{
     font-size: 4vw;
     color: #7aa37E;
-    font-family: 'Lemon';
+    font-family: 'Lemonada';
  }
   
  .recyclageTitle2{
     font-size: 4vw;
-    font-family: 'Lemon';
+    font-family: 'Lemonada';
     color: #7aa37E;
   
  }
   
  .recyclageTitle7{
     font-size: 4vw;
-    font-family: 'Lemon';
+    font-family: 'Lemonada';
     color: #7aa37E;
   
  }
@@ -62,7 +62,7 @@
   
  .titleBande{
     color: #7aa37E;
-    font-family: 'poppins';
+    font-family: 'Poppins';
     font-weight: 500;
     margin: 5% 4% 0% 4%;
     font-size: 3vw;
@@ -78,13 +78,13 @@
   
  .titleHist H3{
     color: #7aa37E;
-    font-family: 'Lemon';
+    font-family: 'Lemonada';
     margin: 3% 4% 2% 4%;
     font-size: 5vw;
  }
   
  .titleHist p{
-    font-family: 'poppins';
+    font-family: 'Poppins';
     margin: 0% 4% 3% 4%;
     font-size: 3vw;
  }

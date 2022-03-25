@@ -14,7 +14,7 @@ function Produit(){
   // que useEffect ne s’exécutera qu’une fois, un peu comme
   // componentDidMount()
     useEffect(() => {
-    fetch("http://localhost:8080/product-info/3046920029759")
+    fetch("http://localhost:8080/product-info/3175681851849")
         .then(res => res.json())
         .then(
         (result) => {

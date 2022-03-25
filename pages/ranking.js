@@ -6,22 +6,18 @@ import Image from 'next/image'
 function App(){
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
-    const [products, setProducts] = useState([]);
 
-  // Remarque : le tableau vide de dépendances [] indique
-  // que useEffect ne s’exécutera qu’une fois, un peu comme
-  // componentDidMount()
+    const [product, setProduct] = useState([]);
+    
+
     useEffect(() => {
-    fetch("http://localhost:8080/product-top ")
+    fetch("http://localhost:8080/product-top")
         .then(res => res.json())
         .then(
         (result) => {
             setIsLoaded(true);
-            setProducts(result.products);
+            setProduct(result.product);
         },
-        // Remarque : il faut gérer les erreurs ici plutôt que dans
-        // un bloc catch() afin que nous n’avalions pas les exceptions
-        // dues à de véritables bugs dans les composants.
         (error) => {
             setIsLoaded(true);
             setError(error);
@@ -30,11 +26,10 @@ function App(){
     }, [])
 
 
-
     return(
         <div className="rankingPage">
         <div className="titleRanking">
-            <h2>Retrouvez ici le top <br /> 100 produits</h2>
+            <h2><b>Retrouvez ici le top <br /> 100 produits</b></h2>
         </div>
         <div className="rankingSearch">
         < Search/>
@@ -46,8 +41,8 @@ function App(){
         </div>
         <div className="bloc">
             <Card 
-                    img="https://images.unsplash.com/photo-1592187270271-9a4b84faa228?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80"
-                    title="Ananas - 33cl"
+                    img={product}
+                    title={product.brands}
                     description="A/B"
             />
             <Card 
@@ -71,7 +66,7 @@ function App(){
         <div className="bloc2">
             <Cart 
                 illustration="https://images.unsplash.com/photo-1528821128474-27f963b062bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                title={product}
+                title="rien"
                 part1="Couvercle"
                 material1="Plastique"
                 bin1=""
@@ -82,7 +77,7 @@ function App(){
             />
                         <Cart 
                 illustration="https://images.unsplash.com/photo-1528821128474-27f963b062bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                title="test"
+                title="rien"
                 part1="Couvercle"
                 material1="Plastique"
                 bin1=""

@@ -95,7 +95,7 @@ li {
 
 .Rana {
     margin: 30px;
-    width: 40%;
+    max-width: 50%;
 }
 
 .leaf {
