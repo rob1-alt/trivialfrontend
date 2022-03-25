@@ -116,6 +116,7 @@ color: green;
 }
 
 .background4{
+    display: flex;
    margin: 0;
    padding-left: 10%;
    height: 200%;
@@ -123,9 +124,9 @@ color: green;
 
 .calendrierH{
     align-items: center;
-   justify-content: center;
+    justify-content: center;
     color : #7AA37E;
-    font-family: 'Poppins',300,sans-serif;
+    font-family: 'Lemonada';
     font-size: 24px;
     MARGIN-bottom: 0;
 }

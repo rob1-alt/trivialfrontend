@@ -4,27 +4,30 @@ import Cart from "../components/Cart";
 import Image from 'next/image'
 
 function App(){
-    const [error, setError] = useState(null);
-    const [isLoaded, setIsLoaded] = useState(false);
 
-    const [product, setProduct] = useState([]);
-    
+    //Problème de route je n'arrive pas a fetch un product par son id dans le tableau (j'ai essayé product[1]?._id)
 
-    useEffect(() => {
-    fetch("http://localhost:8080/product-top")
-        .then(res => res.json())
-        .then(
-        (result) => {
-            setIsLoaded(true);
-            setProduct(result.product);
-        },
-        (error) => {
-            setIsLoaded(true);
-            setError(error);
-        }
-        )
-    }, [])
 
+
+    // const [error, setError] = useState(null);
+    // const [isLoaded, setIsLoaded] = useState(false);
+    // const [product, setProduct] = useState([]);
+
+
+    // useEffect(() => {
+    // fetch("http://localhost:8080/product-info/3274080005003")
+    //     .then(res => res.json())
+    //     .then(
+    //     (result) => {
+    //         setIsLoaded(true);
+    //         setProduct(result.product);
+    //     },
+    //     (error) => {
+    //         setIsLoaded(true);
+    //         setError(error);
+    //     }
+    //     )
+    // }, [])
 
     return(
         <div className="rankingPage">
@@ -39,52 +42,69 @@ function App(){
             <p>1</p>
             <p>3</p>
         </div>
+ {/* Problème pour fetch les données , j'ai donc remplacé par des vraies url en dur  */}
         <div className="bloc">
+            <div className='second'>
+                <Card 
+                        img="https://fr.openfoodfacts.org/images/products/762/221/044/9283/front_fr.475.400.jpg"
+                        title="Prince"   
+                        description="E"
+                />
+            </div>
+            <div className='first'>
             <Card 
-                    img={product}
-                    title={product.brands}
+                    img="https://fr.openfoodfacts.org/images/products/327/408/000/5003/front_fr.829.400.jpg"
+                    title="Cristaline"
                     description="A/B"
             />
+            </div>
+            <div className='fird'>
             <Card 
-                    img="https://images.unsplash.com/photo-1528825871115-3581a5387919?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1015&q=80"
-                    title="Banane - 2L"
-                    description="C/D"
+                    img="https://fr.openfoodfacts.org/images/products/301/762/042/5035/front_fr.372.400.jpg"
+                    title="Nutella"
+                    description="E"
             />
-            <Card s
-                    img="https://images.unsplash.com/photo-1601004890684-d8cbf643f5f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1015&q=80"
-                    title="Fraise - 50cl"
-                    description="A/B"
-            />
+            </div>
         </div>
         <div className="selectorListe">
             <p>Classer par :</p>
-           
+        
             
             <p>Catégories</p>
         </div>
 
         <div className="bloc2">
             <Cart 
-                illustration="https://images.unsplash.com/photo-1528821128474-27f963b062bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                title="rien"
-                part1="Couvercle"
-                material1="Plastique"
-                bin1=""
-                part2="Couvercle"
-                material2="Plastique"
-                bin2=""
+                illustration="https://fr.openfoodfacts.org/images/products/327/408/000/5003/front_fr.829.400.jpg"
+                title="Cristaline"
                 ecoScore="A/B"
             />
                         <Cart 
-                illustration="https://images.unsplash.com/photo-1528821128474-27f963b062bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                title="rien"
-                part1="Couvercle"
-                material1="Plastique"
-                bin1=""
-                part2="Couvercle"
-                material2="Plastique"
-                bin2=""
-                ecoScore="A/B"
+                illustration="https://fr.openfoodfacts.org/images/products/762/221/044/9283/front_fr.475.400.jpg"
+                title="Prince"
+                ecoScore="E"
+            />
+
+<Cart 
+                illustration="https://fr.openfoodfacts.org/images/products/301/762/042/5035/front_fr.372.400.jpg"
+                title="Nutella"
+                ecoScore="E"
+            />
+
+<Cart 
+                illustration="https://fr.openfoodfacts.org/images/products/317/568/001/1480/front_fr.139.400.jpg"
+                title="Sablé"
+                ecoScore="B"
+            />
+                       <Cart 
+                illustration="https://fr.openfoodfacts.org/images/products/304/692/002/2651/front_fr.114.400.jpg"
+                title="Chocolat"
+                ecoScore="E"
+            />
+                       <Cart 
+                illustration="	https://fr.openfoodfacts.org/images/products/316/893/001/0265/front_fr.182.400.jpg"
+                title="Cruesli"
+                ecoScore="C"
             />
 
 

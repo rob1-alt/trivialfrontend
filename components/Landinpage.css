@@ -1,5 +1,5 @@
 .rankingPage {
-    font-family: poppins;
+    font-family: 'Poppins';
  }
   
   
@@ -43,15 +43,20 @@
  }
   
  .info4 {
-    font-size: 2vw;
+    font-size: 3vw;
+    font-weight: bold;
  }
   
  .info5 {
-    font-size: 2vw;
+    font-size: 3vw;
+    font-weight: bold;
+
  }
   
  .info6 {
-    font-size: 2vw;
+    font-size: 3vw;
+    font-weight: bold;
+
  }
   
  .Explication{
@@ -63,9 +68,9 @@
  .titleBande{
     color: #7aa37E;
     font-family: 'Poppins';
-    font-weight: 500;
+    font-weight: 700;
     margin: 5% 4% 0% 4%;
-    font-size: 3vw;
+    font-size: 5vw;
  }
   
  .Bande{

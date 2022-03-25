@@ -42,4 +42,14 @@ a {
 }
 
 
+:not(.no-global-styles) > h2 :hover {
+  color: white;
+}
+
+:not(.no-global-styles) > a:hover{
+  color: #A3D7A8;
+}
+
+
+
 

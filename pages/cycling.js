@@ -43,7 +43,7 @@ function Cycling(){
                 <h1 className='calendrierH'>Le Calendrier des poubelles</h1>
                 <p>Inscrivez les jours de passages de vos poubelles !</p>
                 <Link href="https://gpseo.fr/vivre-et-habiter/maitrise-des-dechets/collecte-des-dechets-2022-dans-ma-rue">
-                <Image layout='fill' alt="background" className="background4"  src="/img/background4.svg"></Image>
+                <Image width="650px" height="600px" alt="background" className="background4"  src="/img/background4.svg"></Image>
                 </Link>
             </div>
         </div>

@@ -10,26 +10,23 @@ function Produit(){
     const [isLoaded, setIsLoaded] = useState(false);
     const [product, setProduct] = useState([]);
 
-  // Remarque : le tableau vide de dépendances [] indique
-  // que useEffect ne s’exécutera qu’une fois, un peu comme
-  // componentDidMount()
+
     useEffect(() => {
-    fetch("http://localhost:8080/product-info/3175681851849")
+    fetch("http://localhost:8080/product-info/3760020507350")
         .then(res => res.json())
         .then(
         (result) => {
             setIsLoaded(true);
             setProduct(result.product);
         },
-        // Remarque : il faut gérer les erreurs ici plutôt que dans
-        // un bloc catch() afin que nous n’avalions pas les exceptions
-        // dues à de véritables bugs dans les composants.
         (error) => {
             setIsLoaded(true);
             setError(error);
         }
         )
     }, [])
+
+    
 
     return(
         <div className='container'>
@@ -67,6 +64,7 @@ function Produit(){
                 <table>
                     <thead>
                         <tr>
+
                             <th scope="col">Partie</th>
                             <th scope="col">Forme</th>
                             <th scope="col">Matière</th>

@@ -9,7 +9,7 @@
 
 .titleRanking {
     color : white;
-    font-family: Lemon;
+    font-family: 'Lemonada';
     font-size: 3.5vw;
     background-image: url(../public/img/header01.svg);
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@
     justify-content: center; 
     text-align: center;
     color : #7AA37E;
-    font-family: Lemon;
+    font-family: 'Lemonada';
     font-size: 6vw;
 }
 
@@ -137,7 +137,7 @@
 }
 
 .cart__title{
-    font-family: Lemon;
+    font-family: 'Lemonada';
     font-size: 2.5vw;
 }
 
@@ -185,3 +185,18 @@
     color: #7AA37E;
 }
 
+
+.first{
+}
+
+.searchInputs{
+    border-radius: 20px;
+}
+
+.fird{
+    padding-top: 15px;
+}
+
+.second{
+    padding-top: 10px ;
+}

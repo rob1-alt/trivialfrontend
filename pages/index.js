@@ -50,7 +50,7 @@
             </div>
             <div className='titleHist'>
                 <h3><b>Vos produits scannés</b></h3>
-                <p>Retrouvez tout votre historique ici :</p>
+                <p>Retrouvez ici tout votre historique ici :</p>
             </div>
     
                 <div className="bloc">
